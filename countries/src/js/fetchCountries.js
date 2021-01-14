@@ -23,7 +23,7 @@ function onInputChange() {
 }
 
 function renderCountryCard(country) {
-  if (country.length == null) {
+  if (country.length == 0) {
     clearInput();
   } else if (country.length > 10) {
     errMsg.errorMsg();
